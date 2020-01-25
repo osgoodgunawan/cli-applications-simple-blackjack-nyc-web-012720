@@ -65,8 +65,11 @@ end
 def runner
   welcome
   first=initial_round
-  second=hit?(initial_round)
-  hit?(initial_round)
+  second=hit?(first)
+  
+  display_card_total(second)
+  
+  end_game(second)
   
 end
     
