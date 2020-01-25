@@ -65,7 +65,7 @@ end
 def runner
   welcome
   first=initial_round
-  prompt_user
+  second=prompt_user
   hit?(initial_round)
   
 end
